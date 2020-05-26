@@ -1,0 +1,557 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', 'sans-serif';
+}
+
+.parallax-main {
+    width: 100%;
+    height: 657px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(32, 58, 67, 0.5), rgba(15, 32, 39, 0.5)), url(../img/street-1209401_1920.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(44, 83, 100, 0.5), rgba(32, 58, 67, 0.5), rgba(15, 32, 39, 0.36)), url(../img/street-1209401_1920.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo-principal {
+    position: static;
+    display: block;
+    margin: auto;
+    margin-top: 14%;
+    width: 100px;
+}
+
+/*Empieza el nav*/
+.nav {
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-title img {
+    width: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.nav > .nav-btn {
+    display: none;
+}
+
+.nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 5px 13px 13px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+    display: none;
+}
+
+/*Termina el nav*/
+
+/*Empieza el  Main*/
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+main .sobre-nosotros {
+    padding: 30px 0 60px 0;
+}
+
+/*Empieza el contenido sobre mi*/
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido-textos-S {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.contenido-textos-S h3{
+    font-size: 20px;
+}
+.contenido-textos-S p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/*Comineza la parte de Formacion*/
+.separadorF {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/dawn-1840298_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
+
+.imagen-about-us {
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+    margin-left: 20px;
+}
+
+.titulo-F {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+    text-align: justify-all;
+}
+
+.contenido-textos h3 span {
+    background: #F25C05;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos li{
+    margin-left: 30px;
+    padding: 0px 0px 30px 15px;
+    font-size: 17px;
+}
+.contenido-textos li a{
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/*Empieza la seccion de Experiencia*/
+.separadorE {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/skills-3371153_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+}
+
+
+
+/*Empieza los skills*/
+
+.container-skills h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.container-skills {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-webkit-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-o-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+.bar {
+    background-color: #EF9A9A;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bar::before {
+    content: attr(data-skill);
+    background-color: #F44336;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+}
+
+.bar.back::before {
+    background-color: #EF9A9A;
+}
+
+.bar.learning::before {
+    width: calc(50% - 10px);
+
+}
+
+.bar.basic::before {
+    width: calc(40% - 10px);
+    background-color: #E53935;
+}
+
+.bar.intermediate::before {
+    width: calc(30% - 10px);
+    background-color: #D32F2F;
+}
+
+.bar.advanced::before {
+    width: calc(80% - 10px);
+    background-color: #C62828;
+}
+
+.bar.expert::before {
+    width: calc(70% - 10px);
+    background-color: #B71C1C;
+}
+
+/*Termina el main*/
+/**/
+
+.idiomas h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.single-chart h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.single-chart {
+    width: 33%;
+    justify-content: space-around;
+}
+
+.single-chart h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 70%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #EF9A9A;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #C62828;
+}
+
+.circular-chart.blue .circle {
+    stroke: #F25C05;
+}
+
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+/**/
+
+.caja-1 form {
+    width: 90%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.caja-1 h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.caja-1 input,
+.caja-1 textarea {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 40%;
+
+}
+
+#boton {
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+/**/
+/*Empieza los efectos responsivos*/
+@media (max-width:600px) {
+    .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+    }
+
+    .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav > .nav-btn > label:hover,
+    .nav #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #F25C05;
+    }
+
+    .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+    .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+
+
+@media screen and (max-width:480px) {
+    .parallax-main {
+        width: 100%;
+    }
+
+    .logo-principal {
+        position: static;
+        display: block;
+        margin: auto;
+        margin-top: 20%;
+        width: 100px;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+    }
+
+    .imagen-about-us {
+        width: 90%;
+    }
+
+    .contenedor-sobre-nosotros img {
+        width: 100%
+    }
+
+    .circular-chart {
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .caja-1 form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:760px) {
+
+    .logo-principal {
+        position: static;
+        display: block;
+        margin: auto;
+        margin-top: 20%;
+        width: 100px;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+    }
+
+    .imagen-about-us {
+        width: 90%;
+    }
+
+    .contenedor-sobre-nosotros img {
+        width: 100%
+    }
+
+    .circular-chart {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .caja-1 form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:761px) {
+    .caja-1 form {
+        width: 100%;
+    }
+}

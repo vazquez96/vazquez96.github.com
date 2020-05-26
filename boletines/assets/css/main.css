@@ -1,0 +1,244 @@
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #66FF22;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text{
+    text-align: justify;
+}
+
+.text a{
+    color: #D9CB04;
+    text-decoration: none;
+    padding: 1em;
+    margin-top: 1em;
+    position: relative;
+}
+
+.text i{
+    padding: 10px;
+}
+
+.container{
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 960px;
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    position: relative;
+    overflow: scroll;
+}
+
+.content{
+  padding:1em;
+}
+
+td{
+    display: block;
+    width: 100%;
+}
+
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+        
+th{
+    display: none;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.fa-star{
+    color: #F2E205;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+.title-item{
+    padding-bottom: 1em;
+    border-bottom: solid 2px #BFB304;
+    font-size: 2em;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+
+.main-image-1{
+    float: left;
+    margin-right: 1em;
+    height: 220px;
+}
+
+.position{
+    background-color: #BFB304;
+    color: white;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+
+
+.next-page{
+    font-size: 20px;
+    position: absolute;
+    bottom: auto;
+    margin-bottom: auto;
+    right: 1em;
+}
+
+.back-page{
+    font-size: 20px;
+    position: absolute;
+    bottom: auto;
+    right: 1em;
+    float: left;
+}
+
+@media(min-width:900px){
+    th{
+        display: table-cell;
+    }
+    td{
+        width: auto;
+        display: table-cell;
+    }
+    
+    td:nth-of-type(1){
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .content{
+        padding: 1.8em;
+    }
+    .delimitador{
+        width:550px;
+        margin:auto;
+    }
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+    .video{
+        height:0px;
+        width:100%;
+        max-width:550px; /* Así establecemos el ancho máximo (si lo queremos) */
+        padding-top:56%; /* Relación: 16/9 = 56.25% */
+        position:relative;
+    }
+/* El iframe se adapta al tamaño del contenedor */
+    iframe{
+        position:absolute;
+        height:100%;
+        width:100%;
+        top:0px;
+        left:0px;
+    }
+        
+}
+
+@media(min-height:550px){
+    .content{
+        height: 500px;
+    }
+     .next-page{
+        font-size: 20px;
+        position: absolute;
+        bottom: auto;
+        right: 1em;
+        float: left;
+    }
+    
+    .back-page{
+        font-size: 20px;
+        position: absolute;
+        bottom: auto;
+        right: 1em;
+        float: left;
+    }
+    
+    .video{
+        height:0px;
+        width:100%;
+        max-width:550px; /* Así establecemos el ancho máximo (si lo queremos) */
+        padding-top:56%; /* Relación: 16/9 = 56.25% */
+        position:relative;
+    }
+/* El iframe se adapta al tamaño del contenedor */
+    iframe{
+        position:absolute;
+        height:100%;
+        width:100%;
+        top:0px;
+        left:0px;
+    }
+}
+
+    
