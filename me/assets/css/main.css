@@ -111,6 +111,8 @@ main .sobre-nosotros {
 .contenido-textos-S {
     margin-top: 10%;
     margin-left: 5%;
+    padding: 10px;
+    margin: 0;
 }
 .contenido-textos-S h3{
     font-size: 20px;
@@ -118,6 +120,7 @@ main .sobre-nosotros {
 .contenido-textos-S p {
     text-align: justify;
     font-size: 16px;
+    padding: 0px;
 }
 
 /*Comineza la parte de Formacion*/
@@ -293,12 +296,14 @@ main .sobre-nosotros {
     text-align: center;
     font-size: 50px;
     font-weight: 600;
+    margin: auto;
     margin-bottom: 30px;
 }
 
 .single-chart h3 {
     text-align: center;
     font-size: 30px;
+    margin: auto;
 }
 
 .flex-wrapper {
@@ -501,13 +506,25 @@ textarea {
     .circular-chart {
         max-width: 100%;
         width: 100%;
-        margin: 0px;
+        margin-left: -25%;
     }
-
+    
+    .single-chart {
+        width: 100%;
+        max-width: 100%;
+    }
+    .single-chart h3 {
+        margin-left: -55px;
+    }
+    
     .caja-1 form {
         width: 100%;
     }
-
+    .caja-1 input{
+        width: 70%;
+        margin-left: 40px;
+        margin-right: 0;
+    }    
 }
 
 @media screen and (min-width:481px) and (max-width:760px) {
