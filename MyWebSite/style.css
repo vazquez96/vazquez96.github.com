@@ -220,7 +220,7 @@ p{
 
 /* hero section */
 #hero{
-    background-image: url(../photo/pexels-eberhard-grossgasteiger-1287083.jpg);
+    background-image: url("https://images.pexels.com/photos/1287083/pexels-photo-1287083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -382,7 +382,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./photo/pexels-startup-stock-photos-7369.jpg);
+    background-image: url("https://images.pexels.com/photos/7369/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     margin: 10px 5%;
     position: relative;
