@@ -382,7 +382,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/photo/pexels-startup-stock-photos-7369.jpg);
+    background-image: url(./photo/pexels-startup-stock-photos-7369.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
